@@ -9,7 +9,7 @@ gem "shrine"
 #my gems
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
-gem 'sqlite3'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
@@ -44,7 +44,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  # gem 'sqlite3'
+   gem 'sqlite3'
 end
 
 group :production do
